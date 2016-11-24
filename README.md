@@ -46,3 +46,29 @@ License
 
 Enjoy!
 We're always happy to hear your feedback.
+
+Clone repository and install dependencies
+
+You will need to clone source code of BlurAdmin GitHub repository. To do this open console and execute following lines:
+
+git clone https://github.com/akveo/blur-admin.git
+
+After repository is cloned, go inside of repository directory and install dependencies there:
+
+cd blur-admin
+npm install
+
+This will setup a working copy of BlurAdmin on your local machine
+Running local copy
+
+To run local copy in development mode, execute:
+
+gulp serve
+
+This script should automatically open template in your default browser.
+
+To run local copy in production mode, execute:
+
+gulp serve:dist
+
+For addition information about build, please check out this angular generator
